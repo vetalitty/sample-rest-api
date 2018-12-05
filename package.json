@@ -1,0 +1,22 @@
+{
+  "name": "sample-rest-api",
+  "version": "0.0.1",
+  "description": "Sample REST API",
+  "main": "bin/server.js",
+  "repository": "",
+  "author": "Vitaly Kuznetsov <vetalitty@gmail.com>",
+  "license": "",
+  "scripts": {
+    "start": "node bin/server.js"
+  },
+  "dependencies": {
+    "http-shutdown": "^1.2.0",
+    "jsonwebtoken": "^8.3.0",
+    "kcors": "^2.2.2",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-jwt": "^3.3.2",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0"
+  }
+}
