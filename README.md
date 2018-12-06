@@ -34,7 +34,7 @@ body:
 
 `password: root`
 
-As you can see 
+If your credentials is valid, you can see token in response. Save it for the future request.
 ## (POST) Register user
 URL:
 `http://127.0.0.1:3333/v1/user/register`
